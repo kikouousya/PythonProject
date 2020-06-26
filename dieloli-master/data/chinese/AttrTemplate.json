@@ -1,0 +1,277 @@
+{
+  "TemList":{"男":"Man","女":"Woman","扶她":"Futa","无性人":"Asexual"},
+  "Man":{
+    "Sex":"男",
+    "Age":"YoungAdult",
+    "HitPoint":"Ordinary",
+    "ManaPoint":"Ordinary",
+    "SexExperience":"None",
+    "FeaturesTem":"Man",
+    "Weight":"Ordinary"
+  },
+  "Woman":{
+    "Sex":"女",
+    "Age":"YoungAdult",
+    "HitPoint":"Ordinary",
+    "ManaPoint":"Ordinary",
+    "SexExperience":"None",
+    "FeaturesTem":"Woman",
+    "Weight":"Ordinary"
+  },
+  "Futa":{
+    "Sex":"扶她",
+    "Age":"YoungAdult",
+    "HitPoint":"Ordinary",
+    "ManaPoint":"Ordinary",
+    "SexExperience":"None",
+    "FeaturesTem":"Futa",
+    "Weight":"Ordinary"
+  },
+  "Asexual":{
+    "Sex":"无性人",
+    "Age":"YoungAdult",
+    "HitPoint":"Ordinary",
+    "ManaPoint":"Ordinary",
+    "SexExperience":"None",
+    "FeaturesTem":"Asexual",
+    "Weight":"Ordinary"
+  },
+  "AgeTem":{
+    "OldAdult":{
+      "MaxAge":"120",
+      "MiniAge":"65"
+    },
+    "MiddleAdult":{
+      "MaxAge":"65",
+      "MiniAge":"40"
+    },
+    "YoungAdult":{
+      "MaxAge":"40",
+      "MiniAge":"18"
+    },
+    "Adolescence":{
+      "MaxAge":"18",
+      "MiniAge":"12"
+    },
+    "SchoolAgeChild":{
+      "MaxAge":"12",
+      "MiniAge":"7"
+    }
+  },
+  "HitPointTem":{
+    "Ordinary":{
+      "HitPointMax":"2000"
+    },
+    "Strong":{
+      "HitPointMax":"2500"
+    },
+    "Thin":{
+      "HitPointMax":"1500"
+    }
+  },
+  "ManaPointTem":{
+    "Ordinary":{
+      "ManaPointMax":"2000"
+    },
+    "StrongMagic":{
+      "ManaPointMax":"2500"
+    },
+    "WeakMagic":{
+      "ManaPointMax":"1500"
+    }
+  },
+  "Equipment":{
+    "Man":{
+      "Coat":0,
+      "Pants":1,
+      "Shoes":1,
+      "Socks":1,
+      "Underwear":3,
+      "Bra":0,
+      "Underpants":1,
+      "Leggings":0
+    },
+    "Woman":{
+      "Coat":0,
+      "Pants":1,
+      "Shoes":1,
+      "Socks":2,
+      "Underwear":4,
+      "Bra":1,
+      "Underpants":1,
+      "Leggings":1
+    },
+    "Futa":{
+      "Coat":0,
+      "Pants":1,
+      "Shoes":1,
+      "Socks":2,
+      "Underwear":4,
+      "Bra":1,
+      "Underpants":1,
+      "Leggings":1
+    },
+    "Asexual":{
+      "Coat":0,
+      "Pants":1,
+      "Shoes":1,
+      "Socks":1,
+      "Underwear":3,
+      "Bra":0,
+      "Underpants":1,
+      "Leggings":0
+    }
+  },
+  "SexItem":{
+    "Man":{
+      "Head":0,
+      "Eye":0,
+      "Ear":0,
+      "Mouth":0,
+      "Finesse":0,
+      "Finger":0,
+      "Chest":0,
+      "Privates":0,
+      "Anus":0,
+      "Other":0
+    },
+    "Woman":{
+      "Head":0,
+      "Eye":0,
+      "Ear":0,
+      "Mouth":0,
+      "Finesse":0,
+      "Finger":0,
+      "Chest":0,
+      "Privates":0,
+      "Anus":0,
+      "Other":0
+    },
+    "Futa":{
+      "Head":0,
+      "Eye":0,
+      "Ear":0,
+      "Mouth":0,
+      "Finesse":0,
+      "Finger":0,
+      "Chest":0,
+      "Privates":0,
+      "Anus":0,
+      "Other":0
+    },
+    "Asexual":{
+      "Head":0,
+      "Eye":0,
+      "Ear":0,
+      "Mouth":0,
+      "Finesse":0,
+      "Finger":0,
+      "Chest":0,
+      "Privates":0,
+      "Anus":0,
+      "Other":0
+    }
+  },
+  "SexExperience": {
+    "None": {
+      "MouthExperienceTem": "None",
+      "BosomExperienceTem": "None",
+      "VaginaExperienceTem": "None",
+      "ClitorisExperienceTem": "None",
+      "AnusExperienceTem": "None",
+      "PenisExperienceTem": "None"
+    },
+    "Scarce":{
+      "MouthExperienceTem": "None",
+      "BosomExperienceTem": "Scarce",
+      "VaginaExperienceTem": "Scarce",
+      "ClitorisExperienceTem": "Scarce",
+      "AnusExperienceTem": "None",
+      "PenisExperienceTem": "Scarce"
+    },
+    "Ordinary":{
+      "MouthExperienceTem": "Scarce",
+      "BosomExperienceTem": "Ordinary",
+      "VaginaExperienceTem": "Ordinary",
+      "ClitorisExperienceTem": "Ordinary",
+      "AnusExperienceTem": "None",
+      "PenisExperienceTem": "Scarce"
+    },
+    "Abundant":{
+      "MouthExperienceTem": "Ordinary",
+      "BosomExperienceTem": "Abundant",
+      "VaginaExperienceTem": "Abundant",
+      "ClitorisExperienceTem": "Abundant",
+      "AnusExperienceTem": "Scarce",
+      "PenisExperienceTem": "Abundant"
+    }
+  },
+  "SexExperienceTem":{
+    "MouthExperienceTem":{
+      "Abundant":[51,100],
+      "Ordinary":[30,50],
+      "Scarce":[1,29],
+      "None":[0,0]
+    },
+    "BosomExperienceTem":{
+      "Abundant":[51,100],
+      "Ordinary":[30,50],
+      "Scarce":[1,29],
+      "None":[0,0]
+    },
+    "VaginaExperienceTem":{
+      "Abundant":[51,100],
+      "Ordinary":[30,50],
+      "Scarce":[1,29],
+      "None":[0,0]
+    },
+    "ClitorisExperienceTem":{
+      "Abundant":[51,100],
+      "Ordinary":[30,50],
+      "Scarce":[1,29],
+      "None":[0,0]
+    },
+    "AnusExperienceTem":{
+      "Abundant":[51,100],
+      "Ordinary":[30,50],
+      "Scarce":[1,29],
+      "None":[0,0]
+    },
+    "PenisExperienceTem":{
+      "Abundant":[51,100],
+      "Ordinary":[30,50],
+      "Scarce":[1,29],
+      "None":[0,0]
+    }
+  },
+  "HeightTem":{
+    "Man":[48.2,52.8],
+    "Woman":[47.7,52.0],
+    "Futa":[47.7,52.0],
+    "Asexual":[48.2,52.8]
+  },
+  "WeightTem":{
+      "Thin":[14.0,18.4],
+      "Ordinary":[18.5,23.9],
+      "Overweight":[24.0,27.9],
+      "Fat":[28.0,34.9],
+      "SevereObesity":[35.0,39.9],
+      "ExtremelySevereObesity":[40.0,50.0]
+    },
+  "WeightTemFix":{
+      "Thin":[-5,-14.9],
+      "Ordinary":[-4.9,4.9],
+      "Overweight":[5,14.9],
+      "Fat":[15,24.9],
+      "SevereObesity":[25,34.9],
+      "ExtremelySevereObesity":[35,44.9]
+  },
+  "WaistHipProportionTem":{
+      "Thin":-0.2,
+      "Ordinary":0,
+      "Overweight":0.2,
+      "Fat":0.4,
+      "SevereObesity":0.6,
+      "ExtremelySevereObesity":1.0
+  }
+}
